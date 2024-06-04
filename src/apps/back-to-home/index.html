@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no"
+    />
+    <meta charset="UTF-8" />
+    <link rel="shortcut icon" href="icon.png" />
+    <title>Triangle: Back to Home</title>
+    <style>
+      body {
+        margin: 0;
+        background-color: #000;
+      }
+      .app {
+        width: 100vw;
+        height: 100vh;
+        overflow: hidden;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+      }
+    </style>
+  </head>
+  <body>
+    <div class="app">
+      <canvas id="app" style="transform: rotateX(180deg)"></canvas>
+    </div>
+    <script src="utils/vector.js"></script>
+    <script src="utils/color.js"></script>
+    <script src="map/block.js"></script>
+    <script src="map/map.js"></script>
+    <script src="decoration/background.js"></script>
+    <script src="utils/animation.js"></script>
+    <script src="utils/draw.js"></script>
+    <script src="scene/sfx.js"></script>
+    <script src="character/character-animations.js"></script>
+    <script src="character/character.js"></script>
+    <script src="scene/splash-screen.js"></script>
+    <script src="particles/particle.js"></script>
+    <script src="particles/particles.js"></script>
+    <script src="scene/camera.js"></script>
+    <script src="scene/scene.js"></script>
+    <script src="control.js"></script>
+    <script src="app.js"></script>
+  </body>
+</html>
